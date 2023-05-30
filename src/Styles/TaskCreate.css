@@ -1,0 +1,28 @@
+.task-create {
+  width: 450px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-label {
+  margin: 10px 0px;
+}
+
+.task-input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.task-button {
+  border: 1px solid green;
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}/*# sourceMappingURL=TaskCreate.css.map */
