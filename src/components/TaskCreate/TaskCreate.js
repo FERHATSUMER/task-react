@@ -5,7 +5,6 @@ function TaskCreate() {
   const [title, setTitle] = useState('');
   const [taskDec, setTaskDec] = useState('');
 
-  console.log(title, taskDec);
 
   const handleChange = (event) => {
     setTitle(event.target.value);
