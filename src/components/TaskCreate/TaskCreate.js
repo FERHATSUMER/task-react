@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import '../../Styles/TaskCreate.css';
 
-function TaskCreate() {
+function TaskCreate({oncreate}) {
   const [title, setTitle] = useState('');
   const [taskDec, setTaskDec] = useState('');
 
@@ -16,6 +16,7 @@ function TaskCreate() {
  
   const handleSubmit=(event)=>{
 event.preventDefault()
+oncreate(title,taskDec )
   }
 
   return (
