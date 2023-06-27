@@ -17,6 +17,8 @@ function TaskCreate({oncreate}) {
   const handleSubmit=(event)=>{
 event.preventDefault()
 oncreate(title,taskDec )
+setTitle('');
+setTaskDec('');
   }
 
   return (
