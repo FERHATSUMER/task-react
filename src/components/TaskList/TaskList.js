@@ -1,10 +1,11 @@
-import TaskShow from '../TaskShow/taskShow';
+import TaskShow from '../TaskShow/TaskShow';
+
 function TaskList({ tasks }) {
     return (
     <div>
-    {tasks.map((tasks,index)=>{
-        return (<TaskShow key={index} tasks={tasks} />)
-    })}
+{tasks.map((task,index)=>{
+    return <TaskShow key={index} task={task}   />
+})}    
     </div> );
 }
 

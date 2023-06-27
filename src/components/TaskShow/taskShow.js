@@ -1,6 +1,6 @@
-function TaskShow({ task}) {
-console.log(task);
-    return ( <div></div> );
+function TaskShow({ task }) {
+    console.log(task);
+    return (<div></div>  );
 }
 
 export default TaskShow;
