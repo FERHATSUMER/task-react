@@ -1,0 +1,38 @@
+.task-show {
+  border: 2px solid green;
+  border-radius: 30px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.task-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.update-btn {
+  padding: 5px;
+  font-size: 15px;
+  border: none;
+  width: 80px;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.delete-btn {
+  padding: 5px;
+  font-size: 15px;
+  border: none;
+  width: 60px;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  margin-right: 15px;
+  cursor: pointer;
+}/*# sourceMappingURL=TaskShow.css.map */
