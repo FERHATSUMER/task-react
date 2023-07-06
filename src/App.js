@@ -1,3 +1,4 @@
+import axios from 'axios';
 import './App.css';
 import TaskCreate from './components/TaskCreate/TaskCreate';
 import TaskList from './components/TaskList/TaskList';
@@ -6,6 +7,8 @@ import { useState } from 'react';
 function App() {
   const [tasks, setTasks] = useState([]);
   const createTask = (title, taskDesc) => {
+axios.post('http://localhost:3000/tasks') 
+
     const createdTasks = [
       ...tasks,
       {
