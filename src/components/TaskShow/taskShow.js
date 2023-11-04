@@ -1,10 +1,9 @@
 import { useState } from "react";
 import "../../Styles/TaskShow.css";
-import "../../Styles/TaskShow.css";
 import { useContext } from "react";
 import TaskCreate from "../TaskCreate/TaskCreate";
 import TaskContext from "../../context/task";
-function TaskShow({ task, onDelete, onUpdate }) {
+function TaskShow({ task}) {
   const { editTasjsById, deleteTaskById } = useContext(TaskContext);
   const [showEdit, setShowEdit] = useState(false);
   const handleDeleteClick = () => {
